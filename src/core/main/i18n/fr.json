@@ -1,0 +1,853 @@
+{
+  "errors": {
+    "default": "Une erreur est survenue",
+    "badRequest": "Une erreur est survenue",
+    "badRequestSubMsg": "Veuillez réessayer",
+    "forbidden": "Accès non autorisé",
+    "forbiddenSubMsg": "Vous n'avez pas accès a ce {{resource}}",
+    "resourceNotFound": "Ce {{resource}} est impossible à trouver",
+    "resourceNotFoundSubMsg": "Ce {{resource}} n'est plus accessible",
+    "subscriptionExpired": "Votre abonnement est expiré",
+    "subscriptionExpiredSubMsg": "Renouveler l'abonnement du hub en utilisant notre plateforme web pour continuer à utiliser ce hub. ",
+    "notFoundOffline": "Cette {{resource}} n'est pas disponible hors ligne.",
+    "noAccess": "Vous n'avez pas accès à cette question",
+    "numberAlreadyTaken": "Le numéro est déjà utilisé",
+    "rfiAnotherUserEdit": "Vos modifications ne peuvent pas être enregistrées. Une version plus récente de cet item a été enregistrée par un autre utilisateur. Veuillez rafraîchir la page.",
+    "characterLimitReached": "Limite de XXXXX caractères atteinte"
+  },
+  "sections": {
+    "stepOne": "Première étape"
+  },
+  "subscriptions": {
+    "trialEndTitle": "Votre période d'essai est terminée",
+    "trialEndSub": "Renouveler en utilisant notre plateforme web pour continuer à utiliser ce hub ou il sera effacé dans {{count}} jour.",
+    "trialEndSub_plural": "Renouveler en utilisant notre plateforme web pour continuer à utiliser ce hub ou il sera effacé dans {{count}} jours.",
+    "trialEnded": "Période d'essai terminée",
+    "trialEnds": "La période d'essai se termine dans",
+    "subscriptionExpired": "Abonnement expiré",
+    "dayCount": "{{count}} jour",
+    "dayCount_plural": "{{count}} jours",
+    "dayCountRest": "{{count}} jour d'essai",
+    "dayCountRest_plural": "{{count}} jours d'essai",
+    "subscriptionRequired": "Un abonnement est nécessaire par la suite."
+  },
+  "auth": {
+    "signInWithEmail": "Se connecter avec adresse courriel",
+    "signInWithMicrosoft": "Se connecter avec Microsoft",
+    "loggingIn": "Connexion en cours..."
+  },
+  "hubs": {
+    "title": "Hubs",
+    "errorMessage": "Impossible de charger la liste des hubs",
+    "emptyStateMessage": "Aucun hub pour le moment",
+    "emptyStateSubMessage": "Veuillez créer un hub via la plateforme web pour commencer à travailler"
+  },
+  "projects": {
+    "title": "Projets",
+    "errorMessage": "Impossible de charger la liste des projets",
+    "emptyStateMessage": "Aucun projet pour le moment",
+    "emptyStateSubMessage": "Veuillez créer un projet dans ce hub via la plateforme web pour commencer à travailler"
+  },
+  "comments": {
+    "commentCount": "{{count}} commentaire",
+    "commentCount_plural": "{{count}} commentaires",
+    "title": "Commentaires",
+    "errorMessage": "Impossible de charger la liste des commentaires",
+    "emptyStateMessage": "Aucun commentaire pour le moment",
+    "addComment": "Écrire un commentaire...",
+    "deleteConfirmation": "Voulez-vous vraiment supprimer ce commentaire?",
+    "deleting": "Suppression du commentaire...",
+    "addImage": "Ajouter une image"
+  },
+  "threads": {
+    "title": "Fil de discussion",
+    "emptyStateMessage": "Aucun commentaire pour le moment"
+  },
+  "attachments": {
+    "title": "Pièces jointes",
+    "dl":"Télécharger",
+    "couldNotPreview": "Impossible de prévisualiser le fichier",
+    "downloadMessage": "Vous pouvez télécharger le fichier pour voir son contenu.",
+    "errorMessage": "Impossible de charger la liste des pièces jointes",
+    "emptyStateMessage": "Aucune pièce jointe pour le moment",
+    "openFileError": "Aucune application disponible pour ouvrir cette pièce jointe",
+    "addAttachment": "Ajouter une pièce jointe",
+    "fileSizeUnit": {
+      "kb": "Ko",
+      "mb": "Mo",
+      "gb": "Go",
+      "none": ""
+    },
+    "permission": {
+      "title": "Permission refusée",
+      "message": "L'application requiert des permissions supplémentaires.",
+      "subMessage": "Vous devez autoriser l'enregistrement de fichier sur votre téléphone",
+      "action": "Autoriser l'enregistrement de fichier"
+    },
+    "sizeWarning": "Vous n'êtes pas sur le Wi-Fi et la pièce jointe semble volumineuse (> 20mb). Voulez-vous continuer?",
+    "deleteConfirmation": "Voulez-vous vraiment supprimer la pièce jointe {{name}}?",
+    "uploadConfirmation": "Voulez-vous vraiment téléverser la pièce jointe {{name}}?",
+    "loading": "Ouverture de la pièce jointe...",
+    "delete": {
+      "success": "Pièce jointe supprimée",
+      "deleting": "Suppression de la pièce jointe..."
+    },
+    "download": {
+      "success": "Pièce jointe téléchargée",
+      "downloading": "Téléchargement de la pièce jointe..."
+    },
+    "open": {
+      "opening": "Ouverture de la pièce jointe..."
+    },
+    "upload": {
+      "success": "Pièce jointe téléversée",
+      "uploading": "Téléversement de la pièce jointe..."
+    }
+  },
+  "viewpoints": {
+    "title": "Points de vue",
+    "paging": "{{currentViewpoint}} de {{totalViewpoint}}",
+    "errorMessage": "Impossible de charger les points de vue",
+    "viewModel": {
+      "title": "Voir dans le modèle",
+      "modalDescription": "Vous êtes maintenant redirigé vers la version Web de Konekt. Cette version n'est pas optimisée pour les mobiles.",
+      "modalAction": "Continuer"
+    },
+    "delete": {
+      "confirmationWithoutComments": "Voulez-vous vraiment supprimer le point de vue?",
+      "confirmationWithComments": "Voulez-vous vraiment supprimer le point de vue et tous les commentaires associés à ce point de vue?",
+      "success": "Point de vue supprimé",
+      "loading": "Suppression du point de vue..."
+    },
+    "replace": {
+      "title": "Remplacer le point de vue",
+      "confirmation": "Voulez-vous vraiment remplacer le point de vue?",
+      "success": "Point de vue remplacé",
+      "loading": "Remplacement du point de vue..."
+    },
+    "setAsMain": {
+      "confirmation": "Voulez-vous vraiment changer le point de vue principal?",
+      "success": "Le point de vue principal a été changé",
+      "loading": "Changement du point de vue principal..."
+    }
+  },
+  "dashboard": {
+    "refreshRecentIssues": "Rafraîchir les questions récentes",
+    "project": {
+      "errorMessage": "Tableau de bord non-accessible",
+      "errorSubMessage": "Impossible de charger le projet"
+    },
+    "recentIssuesSection": {
+      "title": "Questions récentes",
+      "emptyMessage": "Rien à afficher",
+      "emptySubMessage": "Les questions récentes seront affichées ici",
+      "errorMessage": "Impossible de charger les questions récentes"
+    },
+    "quickFiltersSection": {
+      "title": "Aperçu",
+      "notSelectedMessage": "Sélectionner un filtre rapide pour voir le nombre de questions",
+      "errorMessage": "Impossible de charger le filtre rapide sélectionné",
+      "emptyMessage": "Rien à afficher",
+      "emptySubMessage": "Vous devez avoir créé des filtres rapides sur la plateforme Web pour afficher les informations ici"
+    }
+  },
+  "issues": {
+    "issue": "question",
+    "issueM": "Question",
+    "created": "Créé le {{date}} par",
+    "updated": "Modifié le {{date}} par",
+    "title": "Questions",
+    "issueCount": "{{count}} question",
+    "issueCount_plural": "{{count}} questions",
+    "issueSelectedCount": "{{count}} sélectionnées",
+    "issueSelectedCount_plural": "{{count}} questions",
+    "emptyOfflineStateMessage": "Aucune question disponible hors ligne pour le moment",
+    "emptyUnsychedStateMessage": "Aucune question non synchronisée pour le moment",
+    "emptyDraftStateMessage": "Aucune question brouillon pour le moment",
+    "emptyActiveStateMessage": "Aucune question pour le moment",
+    "emptyStateSubMessage": "Veuillez créer une question pour commencer à travailler",
+    "errorMessage": "Impossible de charger la liste des questions",
+    "errorMessageDetails": "Impossible de charger les détails de la question",
+    "errorSync": "Impossible de synchroniser les modifications",
+    "createIssuesButton": "Créer une question",
+    "deleteSyncSuccess": "Question retirée",
+    "deleteSyncSuccess_plural": "Questions retirées",
+    "untitled": "Sans titre - {{date}}",
+    "errors": {
+      "issueLimitReached": "Désolé, les limites du plan sont atteintes pour les questions !\n\nChangez de plan dès maintenant et profitez de toute la puissance de Konekt®",
+      "notPermitted": "Cette action n'est pas permise pour le rôle actuel.\n\nVeuillez contacter un administrateur du projet."
+    },
+    "selection": {
+      "select": "Sélectionner",
+      "selectAll": "Sélectionner tout",
+      "cancel": "Annuler",
+      "issueSelectedCount": "{{count}} sélectionnée",
+      "issueSelectedCount_plural": "{{count}} sélectionnées",
+      "selected": "Sélectionnée",
+      "all": "Toutes",
+      "loading": {
+        "sync" : "Démarage du téléchargement",
+        "sync-all" : "Démarage du téléchargement",
+        "delete" : "Suppression...",
+        "archive" : "Archivassions..."
+      }
+    },
+    "tabs": {
+      "active": "Actives",
+      "unsynced": "Non Synchronisées",
+      "draft": "Brouillons",
+      "open": "Ouvert",
+      "forwarded": "Transféré",
+      "closed" : "Fermé",
+      "details": "Détails",
+      "workflows":"Flux de travail",
+      "attachments":"Pièces jointes"
+    },
+    "sort": {
+      "sort": "Trier",
+      "lastChanged": "Dernière modification",
+      "number": "Numéro",
+      "dueDate": "Échéance",
+      "creationDate": "Date de création",
+      "phase": "Phase",
+      "title": "Titre",
+      "assignedTo": "Assigné à",
+      "isRestricted": "Visibilité",
+      "status": "Statut",
+      "type": "Type ",
+      "priority": "Priorité",
+      "zone": "Zone",
+      "ascending": "Croissant",
+      "descending": "Décroissant"
+    },
+    "filters": {
+      "customAttributes": "Attributs personnalisés",
+      "title": "Filtres",
+      "clear": "Effacer les filtres",
+      "show": "Afficher les résultats",
+      "quickFilters": {
+        "title": "Filtres rapides",
+        "emptyStateText": "Aucun filtre rapide disponible",
+        "emptyStateSubText": "Veuillez créer un filtre via la plateforme Web pour commencer à travailler",
+        "personal": "Personnel",
+        "shared": "Partagé"
+      },
+      "noFilterError": "Aucune question trouvée dans vos filtres sélectionnés", 
+      "noFilterDraftError": "Aucun brouillon trouvée avec les filtres appliqués",
+      "noItemsTitle": "Aucune question trouvée avec les filtres appliqués",
+      "noItemsDescription": "Veuillez modifier les filtres et relancer la recherche",
+      "visibility": {
+        "all": "Toutes les questions",
+        "restricted": "Questions restreintes",
+        "nonRestricted": "Questions non restreintes"
+      },
+      "availableOffline": {
+        "offline": "Hors ligne",
+        "labelOffline": "Questions accessibles hors ligne"
+      },
+      "placeholders": {
+        "title": "Entrer un titre",
+        "description": "Entrer une description",
+        "customAttributes": "Entrer du texte"
+      }
+    },
+
+    "status": {
+      "open": "Ouvert",
+      "closed": "Fermé",
+      "inProgress": "En cours",
+      "reopened": "Réouvert"
+    },
+    "attributes": {
+      "title": "Titre",
+      "description": "Description",
+      "authors": "Auteurs",
+      "type": "Type",
+      "priority": "Priorité",
+      "assignedTo": "Assigné à",
+      "discipline": "Disciplines",
+      "zone": "Zone",
+      "phase": "Phase",
+      "group": "Groupe",
+      "team": "Équipe Impliquée",
+      "notify": "Notifier",
+      "dueDate": "Échéance",
+      "issueGroup": "Groupe",
+      "visibility": "Visibilité",
+      "status": "Statut",
+      "creationDate": "Date de création",
+      "placeholders": {
+        "title": "Ajouter un titre",
+        "description": "Ajouter une description",
+        "select": "Sélectionner {{field}}",
+        "add": "Ajouter {{field}}"
+      },
+      "notSet": "[Non défini]"
+    },
+    "create": {
+      "createIssue": "Créer une question",
+      "takeAPicture": "Prendre une photo",
+      "addAPicture": "Ajouter une photo",
+      "selectAPicture": "Sélectionner une photo",
+      "selectAFile": "Sélectionner un fichier",
+      "saveAsDraft": "Enregistrer le brouillon",
+      "publish": "Publier la question",
+      "loading": "Création de la question...",
+      "success": "Question publiée",
+      "emptyStateMessage": "Aucune valeur disponible pour ce champ",
+      "emptyStateSubMessage": "Veuillez créer une valeur via la plateforme web pour commencer à travailler"
+    },
+    "update": {
+      "updateDraft": "Enregistrer le brouillon",
+      "discardTitle": "Annuler les modifications",
+      "discardBody": "La fermeture de cette fenêtre supprimera tout travail non enregistré.",
+      "discardGoBack": "Revenir",
+      "discardClose": "Annuler et fermer",
+      "loading": "Mise à jour de la question...",
+      "success": "Question mise à jour",
+      "confirmation": "Voulez-vous vraiment mettre à jour cette question?",
+      "cancel": "Voulez-vous vraiment annuler vos modifications?"
+    },
+    "archive": {
+      "title": "Archiver une question",
+      "success": "Question archivée",
+      "confirmation": "Voulez-vous vraiment archiver cette question?",
+      "loading": "Archivassions..."
+    },
+    "archiveMultiple": {
+      "title": "Archiver plusieurs questions",
+      "success": "Questions archivées",
+      "confirmation": "Vous êtes sur le point d'archiver plusieurs questions en même temps. Voulez-vous continuer?"
+    },
+    "delete": {
+      "title": "Supprimer une question",
+      "success": "Question supprimée",
+      "confirmation": "Voulez-vous vraiment supprimer la question?",
+      "loading": "Suppression..."
+    },
+    "deleteMultiple": {
+      "title": "Supprimer plusieurs questions",
+      "success": "Questions supprimées",
+      "confirmation": "Vous êtes sur le point de supprimer plusieurs questions en même temps. Voulez-vous continuer?"
+    },
+    "draft": {
+      "save": "Brouillon sauvegarder",
+      "publish": "Publier",
+      "publishConfirmation": "Voulez-vous vraiment publier cette question?",
+      "publishing": "Publication de la question...",
+      "publishSuccess": "Question publiée",
+      "missingMandatoryValue": "Vous avez une ou plusieurs valeurs obligatoires manquantes. Vous devez les remplir avant de pouvoir publier la question."
+    }
+  },
+  "rfis":{
+    "rfisCounts": "{{count}} DI",
+    "rfisCounts_plural": "{{count}} DIs",
+
+    "submitalCount": "{{count}} Revue",
+    "submitalCount_plural": "{{count}} Revues",
+
+    "rfis": "DI",
+    "submittals": "Revues",
+    "submittalsHeaderListShort": "Revues (VISA)",
+    "submittalsHeaderList": "Revues des dessins (VISA)",
+    "rfi": "DI",
+    "submittal": "Revue",
+    "rfiCount": "{{count}}  {{rfiSubmittalType}}",
+    "rfiCount_plural": "{{count}}  {{rfiSubmittalType}}",
+    "rfiSearch": "Rechercher {{rfiSubmittalType}}",
+    "emptyMessageWithFiltersHeader":"Aucun résutat trouvée",
+    "emptyMessageWithFilters":"Aucun résultat n'a été trouvé. Veuillez essayer d'utiliser d'autres mots-clés ou vérifier votre orthographe.",
+    "emptyMessageWithSearchHeader":"Aucun résultat trouvé" ,
+    "emptyMessageWithSearch":"Veuillez réessayer avec de nouveaux critères",
+    "emptyStateMessage": "Aucune DI pour le moment",
+    "emptyStateMessageSubmittal": "Aucune revue pour le moment",
+    "emptyStateMessageRfisAction": "Ajouter une DI",
+    "errorMessage": "Impossible de charger la liste des {{rfiSubmittalType}}",
+    "workflowsStatus": {
+      "closedVoid": "A fermé la {{rfiSubmittalType}} en tant que vide",
+      "closedNoActions": "A fermé la {{rfiSubmittalType}} sans aucune mesure prise",
+      "respondedAnswered": "A répondu à la DI avec réponse",
+      "responsedMoreInfo": "A répondu à la DI, mais des informations supplémentaires sont requises",
+      "responsedNoActions": "A répondu à la revue sans mesures à prendre",
+      "responsedApprovedAsNote": "A répondu à la revue et approuvé comme noté",
+      "responsedWithoutExceptions": "A répondu à la revue et l'a rejeté par manque d'exceptions",
+      "responsedRejected": "A répondu à la revue et l'a rejeté",
+      "responsedRevise": "A répondu à la revue pour une revue partielle",
+      "forwardedReview": "A transféré la {{rfiSubmittalType}} pour révision",
+      "forwardedNoActions": "A transféré la {{rfiSubmittalType}} pour révision sans aucune mesure requise",
+      "reviewResponseAnswered": "A répondu à la révision de la DI et a fournie une réponse",
+      "reviewResponseNoAnswer": "A répondu à la révision de la DI, mais le problème n'a pas été résolu",
+      "reviewResponseMoreInfo": "A répondu à la révision de la DI et a demandé plus d'information",
+      "receivedReview": "A reçu la {{rfiSubmittalType}} pour révision"
+    },
+    "filters": {
+      "from": "De",
+      "to": "À",
+      "title": "Filtre",
+      "specSection": "Spécifications",
+      "invalidSpec":"Vous avez entré une section spécifications invalide",
+      "discipline": "Disciplines",
+      "status": "Status",
+      "dueDate": "Date d'échéance",
+      "receivedDate": "Date de réception",
+      "types": "Type",
+      "impactCosts": "Impact sur le coût",
+      "impactSchedules": "Impact sur le calendrier",
+      "keywords": "Mots clés",
+      "overdue": "En retard",
+      "urgent": "Est urgent",
+      "clear": "Effacer les filtres",
+      "show": "Afficher les résultats"
+    },
+    "sort":{
+      "dueDate": "Date d'échéance",
+      "lastChanged": "Dernière modification",
+      "number":"Numéro de la DI",
+      "numberSubmittal":"Numéro de la revue",
+      "receivedDate": "Date de réception"
+    },
+    
+    "tabs": {
+      "open": "Ouvert",
+      "forwarded": "Transféré",
+      "closed" : "Fermé",
+      "details": "Détails",
+      "workflows":"Flux de travail",
+      "attachments":"Pièces jointes"
+    },
+    "attributes": {
+      "keywords": "Mots clés",
+      "senderNumber": "Numéro de l'expéditeur", 
+      "subject": "Sujet",
+      "suggestion": "Suggestion",
+      "question": "Question",
+      "description": "Description",
+      "number": "Numéro de la DI",
+      "numberSubmittal": "Numéro de la revue",
+      "reasons": "Raisons",
+      "receivedDate": "Date de réception",
+      "discipline": "Disciplines",
+      "specSection": "Section spécifications",
+      "title" : "Titre",
+      "type": "Type",
+      "impactSchedule": "Impact sur le calendrier",
+      "impactCost": "Impact sur le coût",
+      "urgent": "Urgent"
+    },
+    "update":{
+      "loading":"Mise à jour de la DI"
+    },
+    "workflows": {
+      "errorLoad": "Impossible de charger la liste des flux",
+      "notAnswered": "Sans réponse",
+      "for" : "pour",
+      "from": "De",
+      "to": "À",
+      "reviewDueDate": "Date de révision",
+      "response": "Réponse",
+      "remarks": "Remarques",
+      "answer": "Réponse",
+      "attachments": "Pièces jointes"
+    },
+    "actions": {
+      "title": "Actions",
+      "forward": "Transférer",
+      "submitResponse": "Soumettre une réponse",
+      "submitOfficialResponse": "Soumettre une réponse officielle",
+      "close": "Fermer",
+      "delete": "Supprimer",
+      "errorSameFileName": "Impossible d'ajouter plusieurs fichiers avec le même nom et la même extension.",
+      "errorSizeFile": "La taille de votre fichier dépasse la limite maximale autorisée.",
+      "errorEmptyFile": "Vous ne pouvez pas téléverser un fichier vide.",
+      "errorMaxFile": "Le nombre maximal de téléchargements de fichiers est de 100 à la fois"
+    },
+    "attachments": {
+      "emptyStateMessage": "Aucune pièce jointe pour le moment"
+    },
+    "forwardAction": {
+      "titleRfi":  "Transfert de la DI",
+      "titleSubmittal": "Transférer la revue",
+      "purpose": "Objet",
+      "reviewDate": "Réviser la date d'échéance",
+      "dueDate": "Date d'échéance",
+      "dueDatePlaceholder": "Sélectionnez la date",
+      "to": "À",
+      "toPlaceholder": "Sélectionnez les utilisateurs",
+      "cc": "CC",
+      "ccPlaceholder": "Sélectionnez les utilisateurs",
+      "remarks": "Remarques",
+      "remarksPlaceholder": "Entrez une remarque",
+      "submitActionButton": "Transférer la DI",
+      "loading": {
+        "forwardingLoading": "En transfert...",
+        "success": "Di transférée",
+        "successSubmittal": "Revue transférée",
+        "error": "Impossible de charger la DI",
+        "errorSubmittal": "Impossible de charger la revue"
+      },
+      "validations": {
+        "dueDateRequired": "Une date est requise",
+        "toRequired": "Un destinataire est requis"
+      }
+    },
+    "closeAction": {
+      "title": "Fermer la DI",
+      "titleSubmittal": "Fermer la revue",
+      "action": "Action",
+      "actionPlaceholder": "Sélectionner une action",
+      "purpose": "Objet",
+      "purposePlaceHolder": "Sélectionner un objet",
+      "remarks": "Remarques",
+      "remarksPlaceholder": "Entrer une remarque",
+      "submitActionButton": "Fermer la DI",
+      "submitActionButtonSubmittal": "Fermer la revue",
+      "loading": {
+        "closingLoading": "Fermeture...",
+        "success": "DI fermée",
+        "successSubmittal": "Revue fermée",
+        "error": "Impossible de charger la DI",
+        "errorSubmittal": "Impossible de charger la revue"
+      },
+      "validations": {
+        "actionRequired": "Une action est requise",
+        "purposeRequired": "Un objet est requis"
+      }
+    },
+    "deleteAction": {
+      "modalAction": {
+        "title": "Supprimer une DI",
+        "titleSubmittal": "Supprimer une revue",
+        "description": "Voulez vous vraiment supprimer cette DI?",
+        "descriptionSubmittal" : "Voulez vous vraiment supprimer cette revue ?",
+        "actionLabel": "Supprimer"
+      },
+      "loading": {
+        "deletingLoading": "Suppression...",
+        "error": "Impossible de supprimer la DI",
+        "errorSubmittal":"Impossible de supprimer la revue",
+        "success": "La DI a été supprimé",
+        "successSubmittal": "La revue a été supprimé"
+      }
+    },
+    "responseAction": {
+      "titleResponse": "Soumettre une réponse",
+      "titleOfficialResponse": "Soumettre une réponse officielle",
+      "action": "Action",
+      "actionSubmittal": "Réponse",
+      "actionPlaceholder": "Sélectionner une action",
+      "actionSubmittalPlaceholder": "Sélectionner une réponse",
+      "from": "De",
+      "fromPlaceholder": "Sélectionnez un utilisateur",
+      "to": "À",
+      "toPlaceholder": "Sélectionnez les utilisateurs",
+      "cc": "CC",
+      "ccPlaceholder": "Sélectionnez les utilisateurs",
+      "response": "Réponse",
+      "responsePlaceholder": "Entrez la réponse",
+      "remarks": "Remarques",
+      "remarksPlaceholder": "Entrez des remarques",
+      "submitResponseActionButton": "Soumettre une réponse",
+      "submitOfficialResponseActionButton": "Soumettre une réponse officielle",
+      "loading": {
+        "submitingLoading": "Réponse en traitement...",
+        "success": "Réponse soumise",
+        "error": "Impossible de charger la DI"
+      },
+      "pendingReviewers": {
+        "prefix": "Vous",
+        "closingAction": "fermez",
+        "officialResponseAction": "soumettez une réponse officielle à",
+        "sufix": "cette DI sans réponses de:",
+        "suffixSubmittal":  "la revue sans réponses de:"
+      },
+      "validations": {
+        "actionRequired": "Une action est requise",
+        "reponseRequired":"Une réponse est requise",
+        "fromRequired": "Un utilisateur est requis",
+        "toRequired": "Un utilisateur est requis",
+        "responseRequired": "Une réponse est requise",
+        "invalidExternalEmail": "Les adresses email invalide: {{invalidList}}"
+      }
+    }
+  },
+  "visibility": {
+    "false": "Tous les utilisateurs dans le projet",
+    "true": "Accès limité à l'auteur, aux assignés, à l'équipe et aux notifiés"
+  },
+  "profile": {
+    "error": "Impossible de charger le profil",
+    "help": "Aide",
+    "settings": "Paramètres",
+    "developerOptions": "Options de développeur",
+    "signout": "Se déconnecter"
+  },
+  "common": {
+    "save": "Sauvegarder",
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "refreshPage": "Rafraîchir la page",
+    "refreshingPage": "Rafraîchissement de la page...",
+    "activateInternet": "Activez votre connexion Internet et rafraîchissez la page.",
+    "connexionUnstable": "Votre connexion n'est pas stable, une connexion stable est requise pour s'authentifier.",
+    "yes": "Oui",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "remove": "Retirer",
+    "delete": "Supprimer",
+    "archive": "Archiver",
+    "reset": "Réinitialiser",
+    "clear": "Effacer",
+    "warning": "Attention",
+    "error": "Erreur",
+    "appVersion": "Version: ",
+    "scrollToTop": "Défiler vers le haut",
+    "showMore": "Afficher plus",
+    "showLess": "Afficher moins",
+    "search": "Rechercher",
+    "searchOrAdd": "Rechercher ou ajouter des {{category}}",
+    "searchCategory": {
+      "keywords": "mots clés",
+      "specSection": "spécifications",
+      "from": "utilisateurs",
+      "to": "utilisateurs",
+      "cc": "utilisateurs"
+    },
+    "searchSubtextSpecSection": "Vous pouvez utiliser une section de spécifications personnalisée, par exemple. 99 99 99 (suffixe facultatif)",
+    "noInternetConnection": "Aucune connexion Internet",
+    "checkInternetConnection": "Veuillez vérifier votre connexion internet et réessayer",
+    "goBackToHubs": "Retourner à la sélection des hubs",
+    "goBackToProjects": "Retourner à la liste des projets",
+    "goBackToIssues": "Retourner à la sélection des questions",
+    "goBackToNotification": "Retourner à la sélection des notifications"
+  },
+  "help": {
+    "title": "Aide",
+    "helpLink": "https://help.bimtrack.co/hc/fr-fr",
+    "informationSecurityLink": "https://bimtrack.co/fr/ressources/la-securite-de-l-information-chez-bim-track",
+    "helpCenter": "Support",
+    "informationSecurity": "Sécurité de l’information"
+  },
+  "appSettings": {
+    "title": "Paramètres",
+    "syncOnCellularData": "Permettre les activités de téléchargement et de synchronisation en utilisant les données cellulaires",
+    "deleteAll": {
+      "title": "Vider la cache",
+      "confirmation": "Cette action supprimera tout le contenu téléchargé de votre appareil"
+    }
+  },
+  "form": {
+    "apply": "Appliquer",
+    "validations": {
+      "required": "{{field}} est requis"
+    }
+  },
+  "speechToText": {
+    "title": "Parole-texte",
+    "emptyStateMessage": "Commencer à enregistrer",
+    "emptyStateSubMessage": "Nous convertirons le texte pour vous",
+    "warning": {
+      "noSpeechServices": {
+        "title": "Service non accessible",
+        "message": "Aucun service de reconnaissance vocale ne semble installé",
+        "subMessage": "Vous devez installer un service de reconnaissance vocale. Tapez sur le bouton pour installer le service par défaut sur le Store",
+        "action": "Ouvrir le Store"
+      },
+      "languageUnavailable": {
+        "title": "Langue non disponible",
+        "message": "La langue que vous tentez d'utiliser n'est pas disponible",
+        "subMessage": "Vous devez installer une langue additionnelle dans votre service de reconnaissance vocale. Tapper sur le bouton pour ouvrir les paramètres du service",
+        "action": "Ouvrir les paramètres du service"
+      },
+      "speechServicesMissingPermissions": {
+        "title": "Permission refusée",
+        "message": "Votre service de reconnaissance vocale requiert des permissions supplémentaires",
+        "subMessage": "Vous devez donner des permissions supplémentaires au service de reconnaissance vocale. Tapper sur le bouton pour ouvrir les paramètres du service",
+        "action": "Ouvrir les paramètres du service"
+      },
+      "permissionDenied": {
+        "title": "Permission refusée",
+        "message": "L'application requiert des permissions supplémentaires.",
+        "subMessage": "Vous devez autoriser l'enregistrement audio pour Konekt",
+        "action": "Ouvrir les paramètres de l'application"
+      },
+      "needPermissionRequest": {
+        "title": "Permission refusée",
+        "message": "L'application requiert des permissions supplémentaires.",
+        "subMessage": "Vous devez autoriser l'enregistrement audio pour Konekt",
+        "action": "Autoriser l'enregistrement audio"
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "emptyOfflineStateMessage": "Les notifications ne sont pas disponibles hors ligne",
+    "emptyStateMessage": "Aucune notification pour le moment",
+    "someone": "Quelqu'un",
+    "markAsRead": "Marquer toutes comme lues",
+    "clear": "Effacer tout",
+    "you": "Vous",
+    "timePeriod": {
+      "currentDay": "Aujourd'hui",
+      "yesterday": "Hier",
+      "currentWeek": "Cette semaine",
+      "currentMonth": "Ce mois",
+      "before": "Il y a plus d'un mois"
+    },
+    "errors": {
+      "notFound": "Impossible d’accéder à cette question, il est possible qu’elle soit archivée ou supprimée."
+    },
+    "messages": {
+      "assignedToIssue": "avez été assigné à la question",
+      "issueUpdated": "a mis à jour la question",
+      "commentAddedToIssue": "a ajouté un nouveau commentaire à la question",
+      "attachmentAddedToIssue": "a ajouté une pièce jointe ",
+      "unassignedFromIssue": "avez été déassigné de la question",
+      "issueDueDateReached": "La date d'échéance a été atteinte pour la question",
+      "addedToNotificationList": "avez été ajouté à la liste des notifiés sur la question",
+      "removedFromNotificationList": "avez été enlevé de la liste des notifiés sur la question",
+      "userMentionedInComment": "avez été mentionné dans un commentaire"
+    }
+  },
+  "menu":{
+    "issues": "Questions",
+    "profile":"Profile",
+    "setting":"Paramètres",
+    "rfiTitle":"RFIs",
+    "submittalTitle":"Submittals"
+  },
+  "sync": {
+    "errors": {
+      "unhandled": "Une erreur est survenue",
+      "noSpaceLeft": "Il n'y a plus assez d'espace sur le disque",
+      "noInternet": "Une connexion Internet est requise pour synchroniser",
+      "notOnWifi": "La synchronisation est seulement permise sur le Wi-Fi",
+      "internalServerError": "Une erreur s'est produite sur le serveur",
+      "accountLimitReached": "Les limites du plan sont atteintes pour les questions",
+      "invalidIssue": "Cette question contient des informations invalides. Veuillez vérifier les attributs obligatoires",
+      "notFound": "Cette ressource n'existe pas"
+    },
+    "warning": {
+      "wifiNotAvailableTitle": "Wifi non disponible",
+      "wifiNotAvailableMessage": "Vous devez activer vos données cellulaires pour continuer à télécharger vos numéros pour un accès hors ligne.",
+      "wifiNotAvailableAction": "Activer les données",
+      "wifiNotAvailableCloseAction": "Arrêt des téléchargements"
+    },
+    "failedSync": "Synchronisation échouée",
+    "retry": "Réessayez",
+    "refresh": "Rafraîchir",
+    "cancelDownload": "Annuler le téléchargement",
+    "syncData": "Synchroniser les données",
+    "removeOfflineIssues": "Supprimer les questions téléchargées",
+    "removeOfflineIssuesDescription": "Les questions téléchargées ainsi que les téléchargements en cours seront supprimés.",
+    "downloadActivity": "Activité de téléchargement",
+    "cancelDescription": "Des questions sont en train d'être téléchargées sur votre appareil en ce moment. Vous pouvez annuler ce processus à n'importe quel moment.",
+    "cancelInfo": "Les questions téléchargées ne seront pas supprimées",
+    "deleting": "Suppression des questions",
+    "cancelling": "Annulation du téléchargement"
+  },
+  "dates": {
+    "intervals": {
+      "singular": "il y a 1 {{unit}}",
+      "plural": "il y a {{count}} {{unit}}"
+    },
+    "units": {
+      "days": "jours",
+      "day": "jour",
+      "months": "mois",
+      "month": "mois",
+      "minutes": "minutes",
+      "minute": "minute",
+      "hours": "heures",
+      "hour": "heure"
+    }
+  },
+  "update": {
+    "title": "Mettre à jour Newforma Konekt?",
+    "message": "Newforma Konekt recommande de mettre à jour à la dernière version.",
+    "cancel": "Non merci",
+    "update": "Mettre à jour",
+    "unsynced": {
+      "alreadyPublished": "Cette question est déjà publiée"
+    }
+  },
+  "forceUpdate": {
+    "titleExperience": "Améliorer votre expérience",
+    "bodyExperience": "Nous avons apporté des améliorations majeures aux fonctionnalités de votre application. Mettez à jour maintenant pour explorer les changements.",
+    "titleSecurity": "La sécurité d'abord",
+    "bodySecurity": "Nous avons apporté d'importantes améliorations à la sécurité. Mettez à jour maintenant pour protéger vos données.",
+    "titleRegulatory": "Mises à jour réglementaires",
+    "bodyRegulatory": "Nous avons apporté les modifications nécessaires pour nous conformer aux récentes exigences légales et réglementaires.",
+    "buttonUpdate": "Mettez à jour maintenant"
+  },
+  "jobs": {
+    "downloadIssue": "Téléchargement question",
+    "start": {
+      "title": "Synchronisation",
+      "description": "Démarage de la synchronisation"
+    },
+    "stop": {
+      "title": "Arrêt",
+      "description": "Arrêt de la synchronisation"
+    },
+    "pushViewpoint": {
+      "description": "Publication du point de vue # {{Id}}"
+    },
+    "pushViewpoints": {
+      "description": "Publication des points de vues"
+    },
+    "pushComment": {
+      "description": "Publication du commentaire # {{Id}}"
+    },
+    "pushComments": {
+      "description": "Publication des commentaires"
+    },
+    "pushAttachment": {
+      "description": "Publication de la pièce jointe # {{Id}}"
+    },
+    "pushAttachments": {
+      "description": "Publication des pièces jointes"
+    },
+    "pushThread": {
+      "description": "Publication du commentaire # {{Id}}"
+    },
+    "pushCommentInThread": {
+      "description": "Publication du fil de discussion # {{Id}}"
+    },
+    "pushCommentsInThread": {
+      "description": "Publication des fils de discussions"
+    },
+    "user": {
+      "description": "Téléchargement de l'utilisateur en cours"
+    },
+    "quickFilter": {
+      "description": "Téléchargement des filtres rapides du projet {{ProjectName}}"
+    },
+    "quickFilters": {
+      "description": "Téléchargement des filtres rapides"
+    },
+    "projects": {
+      "description": "Téléchargement des projets"
+    },
+    "project": {
+      "description": "Téléchargement du projet {{ProjectName}}"
+    },
+    "hubs": {
+      "description": "Téléchargement Hubs"
+    },
+    "hub": {
+      "description": "Téléchargement Hub {{hubName}}"
+    },
+    "pullIssue": {
+      "description": "Téléchargement de la question # {{Id}}"
+    },
+    "pullIssues": {
+      "description": "Téléchargement des questions"
+    },
+    "pushIssue": {
+      "description": "Publication de la question # {{Id}}"
+    },
+    "pushIssues": {
+      "description": "Publication des questions"
+    }
+  }
+}

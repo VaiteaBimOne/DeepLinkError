@@ -1,0 +1,848 @@
+{
+  "errors": {
+    "default": "An error has occurred",
+    "badRequest": "An error has occurred",
+    "badRequestSubMsg": "Please try again",
+    "forbidden": "Unauthorized access",
+    "forbiddenSubMsg": "You don't have access to this {{resource}}",
+    "resourceNotFound": "This {{resource}} cannot be found",
+    "resourceNotFoundSubMsg": "This {{resource}} is no longer available",
+    "subscriptionExpired": "Your subscription has expired",
+    "subscriptionExpiredSubMsg": "Renew your subscription using our web app to keep using this hub.",
+    "notFoundOffline": "This {{resource}} is not available offline.",
+    "noAccess": "You are not allowed to access the requested issue",
+    "numberAlreadyTaken": "The number is already taken",
+    "rfiAnotherUserEdit": "Your changes cannot be saved. A more recent version of this item was saved by another user, please refresh the page.",
+    "characterLimitReached": "XXXXX character limit reached"
+  },
+  "subscriptions": {
+    "trialEndTitle": "Your trial period has ended",
+    "trialEndSub": "Subscribe using our web app to keep using this hub or it'll be deleted in {{count}} day",
+    "trialEndSub_plural": "Subscribe using our web app to keep using this hub or it'll be deleted in {{count}} days",
+    "trialEnds": "Trial ends in",
+    "trialEnded": "Trial ended",
+    "subscriptionExpired": "Subscription expired",
+    "dayCount": "{{count}} day",
+    "dayCount_plural": "{{count}} days",
+    "dayCountRest": "{{count}} day left in trial",
+    "dayCountRest_plural": "{{count}} days left in trial",
+
+    "subscriptionRequired": "A subscription is required afterwards."
+  },
+  "sections": {
+    "stepOne": "Step one"
+  },
+  "auth": {
+    "signInWithEmail": "Sign in with email",
+    "signInWithMicrosoft": "Sign in with Microsoft",
+    "loggingIn": "Signing in..."
+  },
+  "hubs": {
+    "title": "Hubs",
+    "errorMessage": "Unable to load hubs list",
+    "emptyStateMessage": "No hubs yet",
+    "emptyStateSubMessage": "Please create a hub via the web platform to start working"
+  },
+  "projects": {
+    "title": "Projects",
+    "errorMessage": "Unable to load projects list",
+    "emptyStateMessage": "No projects yet",
+    "emptyStateSubMessage": "Please create a project in this hub via the web platform to start working",
+    "noAccess": "You are not allowed to access the requested project"
+  },
+  "comments": {
+    "commentCount": "{{count}} comment",
+    "commentCount_plural": "{{count}} comments",
+    "title": "Comments",
+    "errorMessage": "Unable to load comments list",
+    "emptyStateMessage": "No comments yet",
+    "addComment": "Write a comment...",
+    "deleteConfirmation": "Do you really want to remove this comment?",
+    "deleting": "Deleting comment...",
+    "addImage": "Add image"
+  },
+  "threads": {
+    "title": "Thread",
+    "emptyStateMessage": "No comments yet"
+  },
+  "viewpoints": {
+    "title": "Viewpoints",
+    "errorMessage": "Unable to load viewpoints",
+    "paging": "{{currentViewpoint}} of {{totalViewpoint}}",
+    "viewModel": {
+      "title": "View in model",
+      "modalDescription": "You are now being redirected to the web version of Konekt. This version is not optimized for mobile.",
+      "modalAction": "Continue"
+    },
+    "delete": {
+      "confirmationWithoutComments": "Do you really want to delete the viewpoint?",
+      "confirmationWithComments": "Do you really want to delete the viewpoint and all the comments attached to this viewpoint?",
+      "success": "Viewpoint deleted",
+      "loading": "Deleting viewpoint..."
+    },
+    "replace": {
+      "title": "Replace viewpoint",
+      "confirmation": "Do you really want to replace the viewpoint?",
+      "success": "Viewpoint replaced",
+      "loading": "Replacing viewpoint..."
+    },
+    "setAsMain": {
+      "confirmation": "Do you really want to set this viewpoint as the main viewpoint?",
+      "success": "Viewpoint set as main",
+      "loading": "Setting viewpoint as main..."
+    }
+  },
+  "attachments": {
+    "title": "Attachments",
+    "dl":"Download",
+    "errorMessage": "Unable to load attachments list",
+    "emptyStateMessage": "No attachments yet",
+    "couldNotPreview": "Couldn't preview file",
+    "downloadMessage": "You can download the file to view its content",
+    "openFileError": "No application found to open this file",
+    "addAttachment": "Add attachment",
+    "fileSizeUnit": {
+      "kb": "KB",
+      "mb": "MB",
+      "gb": "GB",
+      "none": ""
+    },
+    "permission": {
+      "title": "Permission denied",
+      "message": "This app requires additional permission",
+      "subMessage": "You need to give the permission to save files on your device",
+      "action": "Allow file saving on your device"
+    },
+    "sizeWarning": "You are not on Wi-Fi and this file seems heavy (> 20mb). Do you wish to continue?",
+    "deleteConfirmation": "Do you really want to delete the attachment {{name}}?",
+    "uploadConfirmation": "Do you really want to upload the attachment {{name}}?",
+    "loading": "Loading attachment...",
+    "delete": {
+      "success": "File deleted",
+      "deleting": "Deleting attachment..."
+    },
+    "download": {
+      "success": "File downloaded",
+      "downloading": "Downloading attachment..."
+    },
+    "open": {
+      "opening": "Opening attachment..."
+    },
+    "upload": {
+      "success": "File uploaded",
+      "uploading": "Uploading attachment..."
+    }
+  },
+  "dashboard": {
+    "refreshRecentIssues": "Refresh recent issues",
+    "project": {
+      "errorMessage": "Dashboard unavailable",
+      "errorSubMessage": "Unable to load project"
+    },
+    "recentIssuesSection": {
+      "title": "Recent issues",
+      "emptyMessage": "Nothing to show",
+      "emptySubMessage": "Recent issues will be displayed here",
+      "errorMessage": "Unable to load recent issues"
+    },
+    "quickFiltersSection": {
+      "title": "Overview",
+      "emptyMessage": "Nothing to show",
+      "notSelectedMessage": "Select a quick filter to see issue count",
+      "emptySubMessage": "You must have quick filters created on the web platform to display information here",
+      "errorMessage": "Unable to load selected quick filter"
+    }
+  },
+  "issues": {
+    "created": "Created on {{date}} by",
+    "updated": "Updated on {{date}} by",
+    "title": "Issues",
+    "issueCount": "{{count}} issue",
+    "issueCount_plural": "{{count}} issues",
+    "issue": "issue",
+    "issueM": "Issue",
+    "emptyOfflineStateMessage": "No issues available offline yet",
+    "emptyUnsychedStateMessage": "No unsynced issues yet",
+    "emptyDraftStateMessage": "No draft issues yet",
+    "emptyActiveStateMessage": "No issues yet",
+    "emptyStateSubMessage": "Please create an issue to start working",
+    "errorMessage": "Unable to load issue list",
+    "errorMessageDetails": "Unable to load issue details",
+    "errorSync": "Unable to synchronize changes",
+    "createIssuesButton": "Create an issue",
+    "deleteSyncSuccess": "Issue removed",
+    "deleteSyncSuccess_plural": "Issues removed",
+    "untitled": "Untitled - {{date}}",
+    "errors": {
+      "issueLimitReached": "Sorry, plan limits are reached for issues !\n\nUpgrade your plan right now and enjoy the power of Konekt®",
+      "notPermitted": "This action is not permitted with your current role\n\nPlease contact a project administrator."
+    },
+    "selection": {
+      "select": "Select",
+      "selectAll": "Select all",
+      "cancel": "Cancel",
+      "issueSelectedCount": "{{count}} selected",
+      "issueSelectedCount_plural": "{{count}} selected",
+      "selected": "Selected",
+      "all": "All",
+      "loading": {
+        "sync" : "Starting download",
+        "sync-all" : "Starting download",
+        "delete" : "Deleting...",
+        "archive" : "Archiving..."
+      }
+    },
+    "tabs": {
+      "active": "Active",
+      "unsynced": "Unsynced",
+      "draft": "Drafts",
+      "open": "Open"
+    },
+    "sort": {
+      "sort": "Sort",
+      "lastChanged": "Last changed",
+      "number": "Number",
+      "dueDate": "Due date",
+      "creationDate": "Creation date",
+      "phase": "Phase",
+      "title": "Title",
+      "assignedTo": "Assigned to",
+      "isRestricted": "Visibility",
+      "status": "Status",
+      "type": "Type",
+      "priority": "Priority",
+      "zone": "Zone",
+      "ascending": "Ascending",
+      "descending": "Descending"
+    },
+    "filters": {
+      "customAttributes": "Custom attributes",
+      "title": "Filters",
+      "clear": "Clear filters",
+      "show": "Show results",
+      "quickFilters": {
+        "title": "Quick filters",
+        "emptyStateText": "No quick filter available",
+        "emptyStateSubText": "Please create a filter via the web platform to start working",
+        "personal": "Personal",
+        "shared": "Shared"
+      },
+      "noFilterDraftError": "No draft found with the applied filters",
+      "noItemsTitle": "No issues found with the applied filters",
+      "noItemsDescription": "Please try different filters and retry the search",
+      "visibility": {
+        "all": "All issues",
+        "restricted": "Restricted issues",
+        "nonRestricted": "Non restricted issues"
+      },
+      "availableOffline": {
+        "offline": "Offline",
+        "labelOffline": "Issues available offline"
+      },
+      "placeholders": {
+        "title": "Enter a title",
+        "description": "Enter a description",
+        "customAttributes": "Enter some text"
+      }
+    },
+    "status": {
+      "open": "Open",
+      "closed": "Closed",
+      "inProgress": "In progress",
+      "reopened": "Reopened"
+    },
+    "attributes": {
+      "title": "Title",
+      "description": "Description",
+      "authors": "Authors",
+      "type": "Type",
+      "priority": "Priority",
+      "assignedTo": "Assigned to",
+      "discipline": "Disciplines",
+      "zone": "Zone",
+      "phase": "Phase",
+      "group": "Group",
+      "team": "Team involved",
+      "notify": "Notify",
+      "dueDate": "Due date",
+      "issueGroup": "Group",
+      "visibility": "Visibility",
+      "status": "Status",
+      "creationDate": "Creation date",
+      "placeholders": {
+        "title": "Add a title",
+        "description": "Add a description",
+        "select": "Select {{field}}",
+        "add": "Add {{field}}"
+      },
+      "notSet": "[Not set]"
+    },
+    "create": {
+      "createIssue": "Create issue",
+      "takeAPicture": "Take a picture",
+      "addAPicture": "Add a picture",
+      "selectAPicture": "Select a picture",
+      "selectAFile": "Select a file",
+      "saveAsDraft": "Save as Draft",
+      "publish": "Publish issue",
+      "loading": "Creating issue...",
+      "success": "Issue created",
+      "emptyStateMessage": "No values available for this field",
+      "emptyStateSubMessage": "Please create a value via the web platform to start working"
+    },
+    "update": {
+      "updateDraft": "Update draft",
+      "discardTitle": "Discard changes",
+      "discardBody": "Closing this window will discard any unsaved work.",
+      "discardGoBack": "Go back",
+      "discardClose": "Discard and close",
+      "loading": "Updating issue...",
+      "success": "Issue updated",
+      "confirmation": "Do you really want to update this issue?",
+      "cancel": "Do you really want to discard your changes?",
+      "unsynced": {
+        "alreadyPublished": "This issue is already published"
+      }
+    },
+    "archive": {
+      "title": "Archive issue",
+      "success": "Issue archived",
+      "confirmation": "Do you really want to archive this issue?",
+      "loading": "Archiving..."
+    },
+    "archiveMultiple": {
+      "title": "Archive multiple issues",
+      "success": "Issues archived",
+      "confirmation": "You are about to archive multiple issues at once. Do you want to continue?"
+    },
+    "delete": {
+      "title": "Delete issue",
+      "success": "Issue deleted",
+      "confirmation": "Do you really want to delete this issue?",
+      "loading": "Deleting..."
+    },
+    "deleteMultiple": {
+      "title": "Delete multiple issues",
+      "success": "Issues deleted",
+      "confirmation": "You are about to delete multiple issues at once. Do you want to continue?"
+    },
+    "draft": {
+      "save": "Draft saved",
+      "publish": "Publish",
+      "publishConfirmation": "Do you really want to publish this issue?",
+      "publishing": "Publishing issue...",
+      "publishSuccess": "Issue published",
+      "missingMandatoryValue": "You have one or many mandatory values missing. You need to fill them before publishing the issue."
+    }
+  },
+  "rfis":{
+    "rfisCounts": "{{count}} RFI",
+    "rfisCounts_plural": "{{count}} RFIs",
+
+    "submitalCount": "{{count}} submittal",
+    "submitalCount_plural": "{{count}} submittals",
+
+    "rfis": "RFIs",
+    "submittals": "Submittals",
+    "submittalsHeaderListShort":  "Submittals",
+    "submittalsHeaderList":  "Submittals",
+    "rfi": "RFI",
+    "submittal": "Submittal",
+    "rfiCount": "{{count}} {{rfiSubmittalType}}",
+    "rfiCount_plural": "{{count}} {{rfiSubmittalType}}",
+    "rfiSearch": "Search {{rfiSubmittalType}}",
+    "emptyMessageWithFiltersHeader":"No results found" ,
+    "emptyMessageWithFilters":"Please try using different keywords or check your spelling.",
+    "emptyMessageWithSearchHeader":"No results found" ,
+    "emptyMessageWithSearch":"Please try again with different criteria",
+    "emptyStateMessage": "No RFIs yet",
+    "emptyStateMessageSubmittal": "No submittals yet",
+    "emptyStateMessageRfisAction": "Log RFI",
+    "errorMessage": "Unable to load {{rfiSubmittalType}} list",
+    "workflowsStatus": {
+      "closedVoid": "Closed {{rfiSubmittalType}} as void",
+      "closedNoActions": "Closed {{rfiSubmittalType}} with no actions taken",
+      "respondedAnswered": "Responded to RFI and provided an answer",
+      "responsedMoreInfo": "Responded to RFI and requested more information",
+      "responsedNoActions": "Responded to submittal with no actions taken",
+      "responsedApprovedAsNote": "Responded to submittal and approved as noted",
+      "responsedWithoutExceptions": "Responded to submittal and rejected it due to no exceptions",
+      "responsedRejected": "Responded to submittal and rejected it",
+      "responsedRevise": "Responded to submittal for partial resubmittal",
+      "forwardedReview": "Forwarded {{rfiSubmittalType}} for review",
+      "forwardedNoActions": "Forwarded {{rfiSubmittalType}} with no actions required",
+      "reviewResponseAnswered": "Reviewed the response to RFI and provided an answer",
+      "reviewResponseNoAnswer": "Reviewed the response to RFI but the issue was not resolved",
+      "reviewResponseMoreInfo": "Reviewed the response to RFI and requested more information",
+      "receivedReview": "Received {{rfiSubmittalType}} for review"
+    },
+    "filters": {
+      "from": "From",
+      "title": "Filter",
+      "to": "To",
+      "specSection": "Spec section",
+      "discipline": "Disciplines",
+      "status": "Status",
+      "dueDate": "Due date",
+      "receivedDate": "Received date",
+      "types": "Type",
+      "invalidSpec":"You entered an invalid spec section",
+      "impactCosts": "Cost impact",
+      "impactSchedules": "Schedule impact",
+      "keywords": "Keywords",
+      "overdue": "Is overdue",
+      "urgent": "Is urgent",
+      "clear": "Clear filters",
+      "show": "Show results"
+    },
+    "sort":{
+      "dueDate": "Due date",
+      "lastChanged": "Last changed",
+      "number":"RFI number",
+      "numberSubmittal":"Submittal number",
+      "receivedDate": "Received date"
+    },
+    "tabs": {
+      "open": "Open",
+      "forwarded": "Forwarded",
+      "closed" : "Closed",
+      "details": "Details",
+      "workflows":"Workflows",
+      "attachments":"Attachments"
+    },
+    "attributes": {
+      "senderNumber": "Sender number", 
+      "subject": "Subject",
+      "suggestion": "Suggestion",
+      "question": "Question",
+      "description": "Description",
+      "number": "RFI number",
+      "numberSubmittal": "Submittal number",
+      "reasons": "Reasons",
+      "keywords": "Keywords",
+      "receivedDate": "Received date",
+      "discipline": "Disciplines",
+      "specSection": "Spec section",
+      "title": "Title",
+      "type": "Type",
+      "impactSchedule": "Schedule impact",
+      "impactCost": "Cost impact",
+      "urgent": "Urgent"
+    },
+    "update":{
+      "loading":"Updating {{rfiSubmittalType}}..."
+    },
+    "workflows": {
+      "errorLoad": "Unable to load rfi workflows",
+      "notAnswered": "Not answered",
+      "for" : "for",
+      "from": "From",
+      "to": "To",
+      "reviewDueDate": "Review due",
+      "response": "Response",
+      "remarks": "Remarks",
+      "answer": "Answer",
+      "attachments": "Attachments"
+    },
+    "actions": {
+      "title": "Actions",
+      "forward": "Forward",
+      "submitResponse": "Submit response",
+      "submitOfficialResponse": "Submit official response",
+      "close": "Close",
+      "delete": "Delete",
+      "errorSameFileName": "Cannot add multiple files with the same name and same extension.",
+      "errorSizeFile": "The size of your file exceeds the maximum limit allowed.",
+      "errorEmptyFile": "You can't upload an empty file.",
+      "errorMaxFile": "The maximum file upload number is 100 at a time"
+    },
+    "attachments": {
+      "emptyStateMessage": "No attachments yet"
+    },
+    "forwardAction": {
+      "titleRfi": "Forward RFI",
+      "titleSubmittal": "Forward submittal",
+      "purpose": "Purpose",
+      "reviewDate": "Review due date",
+      "dueDate": "Due date",
+      "dueDatePlaceholder": "Select due date",
+      "to": "To",
+      "toPlaceholder": "Select users",
+      "cc": "CC",
+      "ccPlaceholder": "Select users",
+      "remarks": "Remarks",
+      "remarksPlaceholder": "Enter rermarks",
+      "submitActionButton": "Forward RFI",
+      "loading": {
+        "forwardingLoading": "Forwarding...",
+        "success": "RFI forwarded",
+        "successSubmittal": "Submittal forwarded",
+        "error": "Unable to load RFI",
+        "errorSubmittal": "Unable to load submittal"
+      },
+      "validations": {
+        "dueDateRequired": "A date is required",
+        "toRequired": "A destination is required"
+      }
+    },
+    "closeAction": {
+      "title": "Close RFI",
+      "titleSubmittal": "Close submittal",
+      "action": "Action",
+      "actionPlaceholder": "Select an action",
+      "purpose": "Purpose",
+      "purposePlaceHolder": "Select a purpose",
+      "remarks": "Remarks",
+      "remarksPlaceholder": "Enter remarks",
+      "submitActionButton": "Close RFI",
+      "submitActionButtonSubmittal": "Close submittal",
+      "loading": {
+        "closingLoading": "Closing...",
+        "success": "RFI closed",
+        "successSubmittal": "Submittal closed",
+        "error": "Unable to load RFI",
+        "errorSubmittal":  "Unable to load the submittal"
+      },
+      "validations": {
+        "actionRequired": "An action is required",
+        "purposeRequired": "A purpose is required"
+      }
+    },
+    "deleteAction": {
+      "modalAction": {
+        "title": "Delete RFI",
+        "titleSubmittal": "Delete submittal",
+        "description": "Do you really want to delete this RFI?",
+        "descriptionSubmittal" : "Do you really want to delete this submittal?",
+        "actionLabel": "Delete"
+      },
+      "loading": {
+        "deletingLoading": "Deleting...",
+        "error": "An error occured while deleting the RFI",
+        "errorSubmittal":"An error occured while deleting the submittal",
+        "success": "The RFI was deleted",
+        "successSubmittal": "The submittal was deleted"
+      }
+    },
+    "responseAction": {
+      "titleResponse": "Submit response",
+      "titleOfficialResponse": "Submit official response",
+      "action": "Action",
+      "actionSubmittal": "Response",
+      "actionSubmittalPlaceholder": "Select a response",
+      "actionPlaceholder": "Select an action",
+      "from": "From",
+      "fromPlaceholder": "Select a user",
+      "to": "To",
+      "toPlaceholder": "Select users",
+      "cc": "CC",
+      "ccPlaceholder": "Select users",
+      "response": "Response",
+      "responsePlaceholder": "Enter response",
+
+      "remarks": "Remarks",
+      "remarksPlaceholder": "Enter remarks",
+
+      "submitResponseActionButton": "Submit response",
+      "submitOfficialResponseActionButton": "Submit official response",
+      "loading": {
+        "submitingLoading": "Submitting response...",
+        "success": "Response submitted",
+        "error": "Unable to load RFI"
+      },
+      "pendingReviewers": {
+        "prefix": "You are",
+        "closingAction": "closing",
+        "officialResponseAction": "submitting an official response to",
+        "sufix": "this RFI without review response from:",
+        "suffixSubmittal": "this submittal without review response from:"
+      },
+      "validations": {
+        "actionRequired": "An action is required",
+        "reponseRequired": "A response is required",
+        "fromRequired": "A user is required",
+        "toRequired": "A user is required",
+        "responseRequired": "A response is required",
+        "invalidExternalEmail": "Invalid email addresses: {{invalidList}}"
+      }
+    }
+  },
+  "visibility": {
+    "false": "All users in project",
+    "true": "Access restricted to author, assignee, team and notify"
+  },
+  "profile": {
+    "error": "Unable to load profile",
+    "help": "Help",
+    "settings": "Settings",
+    "developerOptions": "Developer options",
+    "signout": "Sign out"
+  },
+  "common": {
+    "save": "Save",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "refreshPage": "Refresh the page",
+    "refreshingPage": "Refreshing the page...",
+    "activateInternet": "Activate your Internet connection and refresh the page.",
+    "connexionUnstable": "Your connection is not stable, a stable connection is required to authenticate.",
+    "yes": "Yes",
+    "cancel": "Cancel",
+    "close": "Close",
+    "remove": "Remove",
+    "delete": "Delete",
+    "archive": "Archive",
+    "clear": "Clear",
+    "warning": "Warning",
+    "reset": "Reset",
+    "error": "Error",
+    "appVersion": "Version: ",
+    "scrollToTop": "Scroll to top",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "search": "Search",
+    "searchOrAdd": "Search or add {{category}}",
+    "searchCategory": {
+      "keywords": "keywords",
+      "specSection": "spec section",
+      "from": "recipient",
+      "to": "recipient",
+      "cc": "recipient"
+    },
+    "searchSubtextSpecSection": "You can use a custom spec section eg. 99 99 99 (Optional suffix)",
+    "noInternetConnection": "No Internet connection",
+    "checkInternetConnection": "Check your Internet connection and try again",
+    "goBackToHubs": "Go back to hub selection",
+    "goBackToProjects": "Go back to project list",
+    "goBackToIssues": "Go back to issue list",
+    "goBackToNotification":  "Go back to notification list"
+  },
+  "help": {
+    "title": "Help",
+    "helpLink": "https://help.bimtrack.co/hc/en-ca",
+    "informationSecurityLink": "https://bimtrack.co/resources/data-security-at-bim-track",
+    "helpCenter": "Help",
+    "informationSecurity": "Information security"
+  },
+  "appSettings": {
+    "title": "Settings",
+    "syncOnCellularData": "Allow downloading and synchronization activity using cellular data",
+    "deleteAll": {
+      "title": "Empty cache",
+      "confirmation": "This action will remove all downloaded content from your device"
+    }
+  },
+  "form": {
+    "apply": "Apply",
+    "validations": {
+      "required": "{{field}} is required"
+    }
+  },
+  "speechToText": {
+    "title": "Speech-to-text",
+    "emptyStateMessage": "Start recording",
+    "emptyStateSubMessage": "We will convert to text for you",
+    "warning": {
+      "noSpeechServices": {
+        "title": "Speech services unavailable",
+        "message": "No speech services seems to be installed",
+        "subMessage": "You will need to install a speech recognition service. Tap on the button to install the default service from the Store",
+        "action": "Open Store"
+      },
+      "languageUnavailable": {
+        "title": "Language not available",
+        "message": "The language you are trying to use is not available",
+        "subMessage": "You will need to install additional language in your Speech Service. Tap on the button below to open your speech service settings",
+        "action": "Open Service Settings"
+      },
+      "speechServicesMissingPermissions": {
+        "title": "Permission Denied",
+        "message": "Speech service require additional permissions",
+        "subMessage": "You will need to give additional permission to your Speech Service. Tap on the button below to open your speech service settings",
+        "action": "Open Service Settings"
+      },
+      "permissionDenied": {
+        "title": "Permission denied",
+        "message": "This app require additional permission that may have been denied",
+        "subMessage": "You will need to give the permission to record audio to Konekt",
+        "action": "Open App Settings"
+      },
+      "needPermissionRequest": {
+        "title": "Permission denied",
+        "message": "This app require additional permission",
+        "subMessage": "You will need to give the permission to record audio to Konekt",
+        "action": "Allow audio recording"
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "emptyOfflineStateMessage": "Notifications are not available offline",
+    "emptyStateMessage": "No notifications yet",
+    "someone": "Someone",
+    "markAsRead": "Mark all as read",
+    "clear": "Clear all",
+    "you": "You",
+    "timePeriod": {
+      "currentDay": "Today",
+      "yesterday": "Yesterday",
+      "currentWeek": "This week",
+      "currentMonth": "This month",
+      "before": "More than 1 month ago"
+    },
+    "errors": {
+      "notFound": "Unable to access this issue, it might be archived or deleted."
+    },
+    "messages": {
+      "assignedToIssue": "have been assigned to issue",
+      "issueUpdated": "has updated issue",
+      "commentAddedToIssue": "added a comment to issue",
+      "attachmentAddedToIssue": "added an attachment to issue",
+      "unassignedFromIssue": "have been unassigned from issue",
+      "issueDueDateReached": "Due date has been reached on issue",
+      "addedToNotificationList": "have been added to notify list on issue",
+      "removedFromNotificationList": "have been removed from notify list on issue",
+      "userMentionedInComment": "have been mentioned in a comment on issue"
+    }
+  },
+  "menu":{
+    "issues": "Issues",
+    "profile":"Profile",
+    "setting":"Settings",
+    "rfiTitle":"RFI",
+    "submittalTitle":"Submittals"
+  },
+  "sync": {
+    "errors": {
+      "unhandled": "An error has occurred",
+      "noSpaceLeft": "There is not enough space on the device",
+      "noInternet": "There is no Internet connection",
+      "notOnWifi": "Sync only allowed when on Wi-Fi",
+      "internalServerError": "An error occurred on server",
+      "accountLimitReached": "Plan limits are reached for issues",
+      "invalidIssue": "This issue contains some invalid information. Please check the mandatory attributes",
+      "notFound": "The resource does not exist"
+    },
+    "warning": {
+      "wifiNotAvailableTitle": "Wifi not available",
+      "wifiNotAvailableMessage": "You need to turn on your cellular data to continue downloading your issues for offline access.",
+      "wifiNotAvailableAction": "Turn on data",
+      "wifiNotAvailableCloseAction": "Stop Downloading"
+    },
+    "failedSync": "Failed synchronization",
+    "retry": "Retry",
+    "refresh": "Refresh",
+    "cancelDownload": "Cancel download",
+    "cancelDownloading": "Cancel downloading",
+    "syncData": "Synchronize data",
+    "removeOfflineIssues": "Remove issues available offline",
+    "removeOfflineIssuesDescription": "Downloaded issues for offline access and in progress downloads will be removed.",
+    "removing": "Removing synced issues",
+    "downloadActivity": "Offline download activity",
+    "cancelDescription": "Issues are being downloaded to your device at the moment. You can cancel this process at any moment.",
+    "cancelInfo": "Downloaded issues will not be removed",
+    "cancelling": "Cancelling synchronization"
+  },
+  "dates": {
+    "intervals": {
+      "singular": "about 1 {{unit}} ago",
+      "plural": "about {{count}} {{unit}} ago"
+    },
+    "units": {
+      "days": "days",
+      "day": "day",
+      "months": "months",
+      "month": "month",
+      "minutes": "minutes",
+      "minute": "minute",
+      "hours": "hours",
+      "hour": "hour"
+    }
+  },
+  "update": {
+    "title": "Update Newforma Konekt?",
+    "message": "Newforma Konekt recommends that you update to the latest version.",
+    "cancel": "No thanks",
+    "update": "Update"
+  },
+  "forceUpdate": {
+    "titleExperience": "Enhancing your experience",
+    "bodyExperience": "We've made major improvements to your app's functionality. Update now to explore the changes.",
+    "titleSecurity": "Security first",
+    "bodySecurity": "We've made important security improvements. Update now to keep your data secure.",
+    "titleRegulatory": "Regulatory updates",
+    "bodyRegulatory": "We've made necessary changes to comply with recent legal and regulatory requirements.",
+    "buttonUpdate": "Update now"
+  },
+  "jobs": {
+    "downloadIssue": "Download issue",
+    "start": {
+      "title": "Syncing",
+      "description": "Starting sync"
+    },
+    "stop": {
+      "title": "Stopping",
+      "description": "Stopping sync"
+    },
+    "pushViewpoint": {
+      "description": "Publishing viewpoint # {{Id}}"
+    },
+    "pushViewpoints": {
+      "description": "Publishing viewpoints"
+    },
+    "pushComment": {
+      "description": "Publishing comment # {{Id}}"
+    },
+    "pushComments": {
+      "description": "Publishing comments"
+    },
+    "pushAttachment": {
+      "description": "Publishing attachment # {{Id}}"
+    },
+    "pushAttachments": {
+      "description": "Publishing attachments"
+    },
+    "pushThread": {
+      "description": "Publishing comments thread # {{Id}}"
+    },
+    "pushCommentInThread": {
+      "description": "Publishing thread # {{Id}}"
+    },
+    "pushCommentsInThread": {
+      "description": "Publishing threads"
+    },
+    "user": {
+      "description": "Syncing current user"
+    },
+    "quickFilter": {
+      "description": "Syncing quick filters in project {{ProjectName}}"
+    },
+    "quickFilters": {
+      "description": "Syncing quick filters"
+    },
+    "projects": {
+      "description": "Syncing projects"
+    },
+    "project": {
+      "description": "Syncing project {{ProjectName}}"
+    },
+    "hubs": {
+      "description": "Syncing hubs"
+    },
+    "hub": {
+      "description": "Syncing hub {{hubName}}"
+    },
+    "pullIssue": {
+      "description": "Syncing issue # {{Id}}"
+    },
+    "pullIssues": {
+      "description": "Syncing issues"
+    },
+    "pushIssue": {
+      "description": "Publishing issue # {{Id}}"
+    },
+    "pushIssues": {
+      "description": "Publishing issues"
+    }
+  }
+}

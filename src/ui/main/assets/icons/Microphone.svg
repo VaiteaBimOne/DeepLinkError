@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="24px" viewBox="0 0 16 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AF81E359-880C-4222-BB04-FC4DAD29A289</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="DockMenu/Compact" transform="translate(-199.000000, -149.000000)" stroke="currentColor" stroke-width="1.5">
+            <g id="Group-8-Copy" transform="translate(172.000000, 126.000000)">
+                <g id="mic" transform="translate(28.000000, 24.000000)">
+                    <path d="M7,0 C5.34314575,0 4,1.34314575 4,3 L4,11 C4,12.6568542 5.34314575,14 7,14 C8.65685425,14 10,12.6568542 10,11 L10,3 C10,1.34314575 8.65685425,0 7,0 Z" id="Path"></path>
+                    <path d="M14,9 L14,11 C14,14.8659932 10.8659932,18 7,18 C3.13400679,18 0,14.8659932 0,11 L0,9" id="Path"></path>
+                    <line x1="7" y1="18" x2="7" y2="22" id="Path"></line>
+                    <line x1="3" y1="22" x2="11" y2="22" id="Path"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

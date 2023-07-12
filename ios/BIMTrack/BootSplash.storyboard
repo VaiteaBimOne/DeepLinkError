@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BootSplashBackground" translatesAutoresizingMaskIntoConstraints="NO" id="WgV-jB-4iv">
+                                <rect key="frame" x="0.0" y="20" width="768" height="1072"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BootSplashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="iK2-Zt-y5F">
+                                <rect key="frame" x="242.5" y="480.5" width="283" height="151"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iK2-Zt-y5F" secondAttribute="height" multiplier="15:8" id="nZZ-2f-07x"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" notEnabled="YES"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstItem="WgV-jB-4iv" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="0qO-wj-Tvt"/>
+                            <constraint firstItem="WgV-jB-4iv" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="1Cw-qh-pjF"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1t8-0m-3zN"/>
+                            <constraint firstItem="WgV-jB-4iv" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="3cx-xL-fzu"/>
+                            <constraint firstItem="WgV-jB-4iv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4al-i3-kvK"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="74J-Pt-br0"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.138229" id="94I-Kh-I67"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Dqw-uj-wOJ"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Gmm-tK-j84"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="HFU-lz-DPo"/>
+                            <constraint firstItem="WgV-jB-4iv" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="IMc-2p-KX7"/>
+                            <constraint firstItem="WgV-jB-4iv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Kah-2O-UyN"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="centerX" secondItem="Bcu-3y-fUS" secondAttribute="centerX" id="ORa-Jq-eCb"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="WgV-jB-4iv" secondAttribute="trailing" id="PIy-AA-GBw"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="PsA-Rj-FnM"/>
+                            <constraint firstItem="WgV-jB-4iv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Snb-JY-WbU"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="WgV-jB-4iv" secondAttribute="bottom" id="YH5-sY-nuk"/>
+                            <constraint firstItem="WgV-jB-4iv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="YRe-S4-2Ig"/>
+                            <constraint firstAttribute="trailing" secondItem="WgV-jB-4iv" secondAttribute="trailing" id="Ymf-hd-X5W"/>
+                            <constraint firstAttribute="bottom" secondItem="WgV-jB-4iv" secondAttribute="bottom" id="bEM-6c-On8"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="centerY" secondItem="Bcu-3y-fUS" secondAttribute="centerY" id="gE6-O6-Faw"/>
+                            <constraint firstItem="iK2-Zt-y5F" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.560748" id="jF6-lF-IKj"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="WgV-jB-4iv" secondAttribute="trailing" id="pYS-KC-FnT"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="WgV-jB-4iv" secondAttribute="bottom" id="rPM-Nc-HdW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3.125" y="-1.7578124999999998"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BootSplashBackground" width="207" height="368"/>
+        <image name="BootSplashLogo" width="283" height="78"/>
+    </resources>
+</document>
